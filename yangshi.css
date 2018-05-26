@@ -17,14 +17,7 @@ a{
 	color:#333333;
 	height: 42px;
 }
-a:hover{
-	color:  #1e50ae;
-	font-family: '微软雅黑';
-	display: block;
-	font-size:14px;
-	height: 42px;
-	border-bottom: 3px solid #1e50ae;
-}
+
 /*logo开始*/
 .header{
 	height:174px;
@@ -44,6 +37,14 @@ a:hover{
 	background-color: #ffffff;
 	margin:0 auto;
 	border-radius: 23px;
+}
+.shouye a:hover{
+	color:  #1e50ae;
+	font-family: '微软雅黑';
+	display: block;
+	font-size:14px;
+	height: 42px;
+	border-bottom: 3px solid #1e50ae;
 }
 .shouye li{
 	float: left;
@@ -297,10 +298,13 @@ a:hover{
 	font-size:18px;
 	color: #ebebeb;
 }
-.lianxi .lianxi1 .lianxi2 ul li p{
+.lianxi .lianxi1 .lianxi2 ul li a{
 	font-family: '微软雅黑';
 	font-size:14px;
+	height: 30px;
 	color: #ebebeb;
+	margin: 0 0;
+	padding: 0 0;
 	line-height: 34px;
 }
 .lianxi .lianxi1 img{
@@ -308,6 +312,7 @@ a:hover{
 	margin-bottom: 90px;
 }
 .zuihou{
+	margin-top: 2px;
 	width: 100%;
 	height: 123px;
 	background-color: #323232
@@ -318,7 +323,7 @@ a:hover{
 	margin: 0 auto;
 	background-color: #323232
 }
-.zuihou1 ul li{
+.zuihou1 ul li {
 	display: block;
 	float: left;
 	padding-right: 14px;
@@ -327,7 +332,7 @@ a:hover{
 	margin-top: 31px;
 	background:url(./image/gezi.png) no-repeat right center;
 }
-.zuihou1 p{
+.zuihou1 a{
 	padding-left: 230px;
 	padding-top: 23px;
 	color: #ebebeb;
